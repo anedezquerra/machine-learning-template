@@ -1,0 +1,21 @@
+# Minimal experiment configuration template
+experiment:
+  name: "baseline"
+  seed: 42
+
+data:
+  path: "data/raw"
+  batch_size: 64
+
+model:
+  type: "baseline_model"
+  params:
+    hidden_size: 128
+    dropout: 0.1
+
+training:
+  epochs: 10
+  lr: 1e-3
+
+logging:
+  level: INFO
