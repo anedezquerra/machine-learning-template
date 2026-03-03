@@ -1,0 +1,7 @@
+# Development dependencies (examples)
+pytest>=7.0
+pytest-cov
+black
+isort
+flake8
+pre-commit
